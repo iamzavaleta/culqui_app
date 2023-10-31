@@ -28,6 +28,25 @@ Levantar el backend
 npm run start:dev
 ```
 
+## Post - Ejemplo generar token
+```bash
+ /api/cards/v2/token
+```
+```bash
+{
+    "card_number": 123456789,
+    "cvv": 123,
+    "expiration_month": "10",
+    "expiration_year": "2025",
+    "email": "token@email.com"
+}
+```
+
+## Get - Ejemplo obtener datos de la tarjeta por token
+
+```bash
+ /api/cards/v2/gh365r74rg7fudw3
+```
 
 ## License
 
